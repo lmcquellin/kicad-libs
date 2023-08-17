@@ -15,22 +15,22 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8cee6b37-e3da-451f-ac6c-65520c11f0f7)
   )
-  (fp_line (start -3.5 -2.02) (end -3.5 2.02)
+  (fp_line (start -4.05 0) (end -2.02 3.5)
+    (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 3f6c4bcd-f97b-46f1-9af0-7e396ce613bf))
+  (fp_line (start -2.02 -3.5) (end -4.05 0)
+    (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 1c46e9b2-3efc-4caf-99a4-7e0f862f08ee))
+  (fp_line (start -2.02 -3.5) (end 2.02 -3.5)
+    (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 7994bc93-24ea-4ff7-a053-8dc647bf036a))
+  (fp_line (start -2.02 3.5) (end 2.02 3.5)
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 4ae30e36-3e18-46db-9445-f9f694a6043c))
   (fp_line (start -0.6 -2.4) (end 0 -1.8)
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp ea68a12a-15aa-4720-a89f-c04403f28185))
-  (fp_line (start 0 -4.05) (end -3.5 -2.02)
-    (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 3f6c4bcd-f97b-46f1-9af0-7e396ce613bf))
-  (fp_line (start 0 4.05) (end -3.5 2.02)
-    (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp eb088ff5-9ba4-41b5-a09f-e0f852ec2d25))
   (fp_line (start 0.6 -2.4) (end 0 -1.8)
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 068d494a-53a4-4e4d-a65e-cc19bdad4fbf))
-  (fp_line (start 3.5 -2.02) (end 0 -4.05)
-    (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 1c46e9b2-3efc-4caf-99a4-7e0f862f08ee))
-  (fp_line (start 3.5 -2.02) (end 3.5 2.02)
-    (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 7994bc93-24ea-4ff7-a053-8dc647bf036a))
-  (fp_line (start 3.5 2.02) (end 0 4.05)
+  (fp_line (start 2.02 -3.5) (end 4.05 0)
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 20398cab-63f6-40ed-8457-aa2341e7e399))
+  (fp_line (start 4.05 0) (end 2.02 3.5)
+    (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp eb088ff5-9ba4-41b5-a09f-e0f852ec2d25))
   (fp_circle (center 0 0) (end -2.5 0)
     (stroke (width 0.15) (type default)) (fill none) (layer "F.SilkS") (tstamp 31d7440c-91ee-47fd-8e17-059cc8966d3d))
   (fp_circle (center 0 0) (end -4.2 0)
@@ -41,6 +41,16 @@
   (pad "2" thru_hole circle (at -0.65 -0.625 180) (size 1 1) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp 0762a095-e1be-47fb-9bfc-1da5e74c42f3))
   (pad "3" thru_hole circle (at -0.625 0.625 180) (size 1 1) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp 1da86764-bbbe-4d5a-9819-9e0199ac2a81))
   (pad "4" thru_hole circle (at 0.625 0.625 180) (size 1 1) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp 748048ad-ce31-48b5-8463-20770351c959))
+  (group "" (id 90365d3b-5e47-48f4-a99e-bfc4d792ee8a)
+    (members
+      1c46e9b2-3efc-4caf-99a4-7e0f862f08ee
+      20398cab-63f6-40ed-8457-aa2341e7e399
+      3f6c4bcd-f97b-46f1-9af0-7e396ce613bf
+      4ae30e36-3e18-46db-9445-f9f694a6043c
+      7994bc93-24ea-4ff7-a053-8dc647bf036a
+      eb088ff5-9ba4-41b5-a09f-e0f852ec2d25
+    )
+  )
   (model "/home/liam/kicad/kicad-libs/3dmodels/Connector_Circular.3dshapes/54-00097.STEP"
     (offset (xyz 0 0 -2))
     (scale (xyz 1 1 1))
