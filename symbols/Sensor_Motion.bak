@@ -6,7 +6,7 @@
     (property "Value" "820M1" (at 1.27 8.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Sensor_Motion:TE_LCC-10_8.9x8.9" (at 2.54 1.27 0)
+    (property "Footprint" "Sensor_Motion:TE_LCC-12_16.7x16.7mm" (at 2.54 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F820M1_Accelerometer%7FA4%7Fpdf%7FEnglish%7FENG_DS_820M1_Accelerometer_A4.pdf%7FCAT-EAC0021" (at 15.24 -1.27 0)
